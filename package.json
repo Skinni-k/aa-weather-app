@@ -5,14 +5,14 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "vitest",
     "coverage": "vitest run --coverage",
     "storybook": "NODE_OPTIONS='--openssl-legacy-provider' start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
