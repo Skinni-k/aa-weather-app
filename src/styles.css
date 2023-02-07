@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Montserrat"; /*Can be any text*/
+  src: local("Montserrat"), url("./fonts/Montserrat.ttf") format("truetype");
+}
+
+body {
+  background-color: #eef6fb;
+  font-family: "Montserrat";
+}
