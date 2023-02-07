@@ -5,7 +5,7 @@
 Clone the repo
 
 ```bash
-git clone
+git clone https://github.com/Skinni-k/aa-weather-app.git
 ```
 
 Install dependencies
