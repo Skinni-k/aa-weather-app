@@ -1,6 +1,6 @@
 {
-  "name": "weather-app",
   "homepage": "http://Skinni-k.github.io/aa-weather-app",
+  "name": "weather-app",
   "private": true,
   "version": "0.0.0",
   "scripts": {
@@ -11,8 +11,8 @@
     "coverage": "vitest run --coverage",
     "storybook": "NODE_OPTIONS='--openssl-legacy-provider' start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
