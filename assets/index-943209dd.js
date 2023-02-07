@@ -193,4 +193,4 @@ Error generating stack: `+o.message+`
   padding: 5rem 2rem 10rem;
   height: 100vh;
   background-color: #eef6fb;
-`,Iy=()=>ln(My,{children:[Q("h1",{children:"404 Page Not Found"}),Q("p",{children:"Sorry, the page you are looking for could not be found."})]}),Ly=[{id:"root",path:"/",element:Q(Ay,{})},{id:"no-match",path:"*",element:Q(Iy,{})}];function Dy(){return Rm(Ly)}const zy={size:{tablet:"769px"}},jy=new my;function Qy(){return Q(ky,{client:jy,children:Q(Q0,{theme:zy,children:Q(zm,{children:Q(Dy,{})})})})}Dl.createRoot(document.getElementById("root")).render(Q(ge.StrictMode,{children:Q(Qy,{})}));
+`,Iy=()=>ln(My,{children:[Q("h1",{children:"404 Page Not Found"}),Q("p",{children:"Sorry, the page you are looking for could not be found."})]}),Ly=[{id:"root",path:"/aa-weather-app",element:Q(Ay,{})},{id:"no-match",path:"*",element:Q(Iy,{})}];function Dy(){return Rm(Ly)}const zy={size:{tablet:"769px"}},jy=new my;function Qy(){return Q(ky,{client:jy,children:Q(Q0,{theme:zy,children:Q(zm,{children:Q(Dy,{})})})})}Dl.createRoot(document.getElementById("root")).render(Q(ge.StrictMode,{children:Q(Qy,{})}));
