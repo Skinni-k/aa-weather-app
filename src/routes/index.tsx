@@ -4,7 +4,7 @@ import { ErrorView } from "../pages";
 
 export const routes = [
   { id: "root", path: "/aa-weather-app", element: <Root /> },
-  { id: "no-match", path: "*", element: <ErrorView /> },
+  { id: "no-match", path: "*", element: <Root /> },
 ];
 
 export function RouteTree() {
