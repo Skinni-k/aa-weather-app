@@ -32,6 +32,12 @@ Run Storybook locally
 yarn storybook
 ```
 
+View the app
+
+```bash
+https://skinni-k.github.io/aa-weather-app/
+```
+
 ## Principles to structure codebase
 
 - Follow [Component Driven Development](https://www.componentdriven.org/)
