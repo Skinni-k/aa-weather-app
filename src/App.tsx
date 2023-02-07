@@ -7,7 +7,7 @@ import { QueryClient, QueryClientProvider } from "react-query";
 
 export const theme = {
   size: {
-    tablet: "769px",
+    tablet: "426px",
   },
 };
 

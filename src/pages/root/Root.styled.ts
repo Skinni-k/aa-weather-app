@@ -42,10 +42,11 @@ const Card = css`
     }
 
     .content {
-      margin: 16px;
+      width: 90px;
+      margin-top: 16px;
     }
 
-    @media (min-width: ${({ theme }) => theme.size.largeMobile}) {
+    @media (min-width: ${({ theme }) => theme.size.tablet}) {
       width: 150px;
     }
   }
@@ -63,7 +64,7 @@ export const TodayCard = styled.div`
     justify-content: center;
   }
 
-  @media (min-width: ${({ theme }) => theme.size.largeMobile}) {
+  @media (min-width: ${({ theme }) => theme.size.tablet}) {
     box-shadow: 0px 3px 10px 1px #c0b8b8;
     width: 100%;
   }
@@ -80,7 +81,7 @@ export const FutureCard = styled.div`
     margin-right: 0px;
   }
 
-  @media (min-width: ${({ theme }) => theme.size.largeMobile}) {
+  @media (min-width: ${({ theme }) => theme.size.tablet}) {
     display: flex;
     flex-direction: row;
     justify-content: center;
